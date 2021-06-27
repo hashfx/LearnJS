@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LearnJS</title>
+
+    <!-- InlineJS vs ExternalJS : InlineJS is written in html document inside <script tag> whereas ExternalJS is written in an external file -->
+    
+    <script>
+        // This is inline JS
+        document.write("Lorem Ipsum from Inline JS");
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <p id="th">
+
+    </p>
+
+</body>
+
+<!--External JS-->
+<script src="LearnJS.js"></script>
+
+<script>
+    document.write("<br>Again in Inline JS<br>")
+    console.log("Printing from Inline JS!");
+    console.warn("This is a WArning");
+    console.error("This is an Error");
+
+    document.write("<br>Objects in JS<br>");
+    
+    var obj = {
+        key0: 1,
+        key1: 10,
+        key2: 11
+    }
+
+    /* for (var item in obj){
+        document.write(item[obj])
+    } */
+    
+    document.write(JSON.stringify(obj))
+    
+    
+    // document.write();
+    // document.write();
+    // document.write();
+    // document.write();
+    // document.write();
+
+
+
+
+
+</script>
+
+</html>
